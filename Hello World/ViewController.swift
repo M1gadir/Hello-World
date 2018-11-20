@@ -26,8 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func cc(_ sender: Any) {
-        var nama = txt.text!
-        var out = lbl.text!
+        let nama = txt.text!
        lbl.text = "Hello!! \(nama)"
     }
     
